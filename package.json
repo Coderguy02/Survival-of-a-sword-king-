@@ -1,6 +1,6 @@
 {
   "scripts": {
-  "build": "npm install && npm run build --prefix EcoHistoryForge"
+  "build": "npm install && npm install --prefix EcoHistoryForge && npm run build --prefix EcoHistoryForge"
   },
   "engines": {
     "node": "20.x"
