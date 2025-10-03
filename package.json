@@ -1,4 +1,10 @@
 {
+  "scripts": {
+  "build": "npm install && npm run build --prefix EcoHistoryForge"
+  },
+  "engines": {
+    "node": "20.x"
+  },
   "devDependencies": {
     "@replit/vite-plugin-cartographer": "^0.3.1",
     "@replit/vite-plugin-dev-banner": "^0.1.1",
@@ -25,9 +31,5 @@
     "react": "^19.1.1",
     "wouter": "^3.7.1",
     "ws": "^8.18.3"
-  }
-  ,
-  "engines": {
-    "node": "20.x"
   }
 }
